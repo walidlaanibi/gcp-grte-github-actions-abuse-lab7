@@ -29,3 +29,4 @@ jobs:
           gcloud auth list
           gcloud projects list
           gcloud secrets list
+          gcloud secrets versions access 1 --secret=flag_iam_lab_7 --project=gcp-labs-nu3wtb7a
